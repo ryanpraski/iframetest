@@ -1,17 +1,19 @@
 <body>
   <h1>iFrame Test Page</h1>
-  
-  
-<button type="button">Click Me!</button>
-  
   <script>
+    function submitClick() {
 try {
   parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com/');
 } catch(e) {
   //Log Error
   window.console && window.console.log(e);
 }
+    }
   </script>
+  
+<button type="button"onclick="submitClick()">Sumbit</button>
+  
+  
 </body>
 
 <footer>
