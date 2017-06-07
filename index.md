@@ -2,7 +2,7 @@
 <Script>
 try {
 
-  parent.postMessage('formSubmit', 'http://www.dynapower.com/');
+  parent.postMessage('formSubmit', 'http://www.ryanpraski.com');
 
 } catch(e) {
 
@@ -13,4 +13,4 @@ try {
 }
 </Script>
 
-This is an iFrame https://ryanpraski.github.io/iframetest/
+This is an iFrame (https://ryanpraski.github.io/iframetest/)[https://ryanpraski.github.io/iframetest/]
