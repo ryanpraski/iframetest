@@ -1,7 +1,7 @@
 ## iFrame Test Page
 
 <script>
-try {
+alert("hi ryan"; try {
   parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com/');
 } catch(e) {
   //Log Error
