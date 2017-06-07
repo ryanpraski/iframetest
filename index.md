@@ -1,6 +1,6 @@
 ## iFrame Test Page
 
-<script type="text/javascript">
+<script>
 try {
   parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com/');
 } catch(e) {
