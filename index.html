@@ -2,7 +2,7 @@
   <h1>iFrame Test Page</h1>
   <script>
 try {
-  parent.postMessage('submit', '*');
+  parent.postMessage('iframeFormSubmit', 'https://ryanpraski.github.io/iframetest/');
 } catch(e) {
   //Log Error
   window.console && window.console.log(e);
@@ -12,7 +12,7 @@ try {
   <script>
     function submitClick() {
 try {
-  parent.postMessage('iframeFormSubmit', '*');
+  parent.postMessage('iframeFormSubmit', 'https://ryanpraski.github.io/iframetest/');
 } catch(e) {
   //Log Error
   window.console && window.console.log(e);
@@ -24,11 +24,4 @@ try {
   
   
 </body>
-
-<footer>
-  <script>
-    alert('footer loaded from iframe');
-  </script>
-</footer>
-
 
