@@ -2,7 +2,7 @@
   <h1>iFrame Test Page</h1>
   <script>
 try {
-  parent.postMessage('iframeFormSubmit', 'https://ryanpraski.github.io/iframetest/');
+  parent.postMessage('iframeFormSubmit', '*');
 } catch(e) {
   //Log Error
   window.console && window.console.log(e);
@@ -12,7 +12,7 @@ try {
   <script>
     function submitClick() {
 try {
-  parent.postMessage('iframeFormSubmit', 'https://ryanpraski.github.io/iframetest/');
+  parent.postMessage('iframeFormSubmit', '*');
 } catch(e) {
   //Log Error
   window.console && window.console.log(e);
