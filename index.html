@@ -1,1 +1,10 @@
 
+<script>
+  alert("hi script");
+try {
+  parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com/');
+} catch(e) {
+  //Log Error
+  window.console && window.console.log(e);
+}
+</script>
