@@ -2,7 +2,7 @@
 <Script>
 try {
 
-  parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com');
+  parent.postMessage('iframeFormSubmit', 'http://www.ryanpraski.com/');
 
 } catch(e) {
 
