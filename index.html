@@ -1,6 +1,15 @@
 <body>
   <h1>iFrame Test Page</h1>
   <script>
+try {
+  parent.postMessage('submit', '*');
+} catch(e) {
+  //Log Error
+  window.console && window.console.log(e);
+}
+  </script>
+  
+  <script>
     function submitClick() {
 try {
   parent.postMessage('iframeFormSubmit', '*');
