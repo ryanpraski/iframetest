@@ -1,27 +1,13 @@
-<body>
-  <h1>iFrame Test Page</h1>
-  <script>
+<script>
 try {
-  parent.postMessage('ryan', '*');
-} catch(e) {
-  //Log Error
-  window.console && window.console.log(e);
-}
-  </script>
-  
-  <script>
-    function submitClick() {
-try {
-  parent.postMessage('ryan', '*');
-} catch(e) {
-  //Log Error
-  window.console && window.console.log(e);
-}
-  }
-  </script>
-  
-<button type="button"onclick="submitClick()">Submit</button>
-  
-  
-</body>
 
+  parent.postMessage('ryan', 'http://www.ryanpraski.com/');
+
+} catch(e) {
+
+  //Log Error
+
+  window.console && window.console.log(e);
+
+}
+</script>
